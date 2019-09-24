@@ -1,0 +1,46 @@
+.temp{
+    -fx-background-color:transparent;
+    -fx-background-image:url("../imgs/select_tem.png");
+    -fx-background-repeat:no-repeat;
+    -fx-color:#000;
+    -fx-font-size: 18;
+
+    -fx-background-position: center center;
+    -fx-pref-width: 179;
+    -fx-pref-height: 28;
+}
+.temp:hover{
+    -fx-background-image:url("../imgs/select_tem2.png");
+}
+.temp:focused{
+    -fx-background-image:url("../imgs/select_tem2.png");
+}
+.connect{
+    -fx-background-color:transparent;
+    -fx-background-image:url("../imgs/select_tem.png");
+    -fx-color:#000;
+    -fx-font-size: 22;
+    -fx-background-radius: 0;
+    -fx-background-position: center center;
+    -fx-pref-width:155 ;
+    -fx-pref-height:70 ;
+}
+.connect:hover{
+    -fx-background-image:url("../imgs/select_tem2.png");
+}
+.connect_set{
+    -fx-background-color:transparent;
+    -fx-background-image:url("../imgs/select_tem.png");
+    -fx-color:#000;
+    -fx-background-radius: 0;
+    -fx-background-position: center center;
+    -fx-pref-width:155 ;
+    -fx-max-height:15 ;
+}
+.connect_set:hover{
+    -fx-background-image:url("../imgs/select_tem2.png");
+}
+#imageview{
+    -fx-fit-to-width: 50%;
+    -fx-fit-to-height: 50%;
+}

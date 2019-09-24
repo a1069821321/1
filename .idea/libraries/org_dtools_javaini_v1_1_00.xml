@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.dtools.javaini-v1.1.00">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/org.dtools.javaini-v1.1.00.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

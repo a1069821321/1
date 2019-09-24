@@ -1,0 +1,240 @@
+#box_function_area {
+    -fx-background-color:#F7F7F7 ;
+    -fx-background-radius: 10.0;
+    -fx-padding: 0 0 0 0;
+    -fx-pref-width:30%;
+    -fx-pref-height: 30%;
+    -fx-alignment: "Pos.TOP_CENTER";
+}
+.function_area_{
+    -fx-padding: 3 10 3 10;
+    -fx-spacing: 3;
+    -fx-background-color: #F7F7F7;
+    -fx-min-width:200;
+    -fx-max-height: 600;
+}
+#hbox_content{
+    -fx-min-height: 800;
+    -fx-pref-width: 1300;
+    -fx-padding: 10 10 10 10;
+    -fx-background-color: #CCCCCC;
+}
+#box_first_area{
+    //#F7F7F7
+    -fx-background-radius: 10.0;
+    -fx-spacing: 10;
+    -fx-padding: 0 0 0 0;
+    -fx-border-width: 2px;
+    -fx-pref-width: 30%;
+    -fx-pref-height: 30%;
+}
+#vbox_machine_area{
+    -fx-background-color:#F7F7F7 ;//#F7F7F7
+    -fx-background-radius: 10.0;
+    -fx-spacing: 0;
+    -fx-padding: 0 0 0 0;
+    -fx-border-width: 2px;
+    -fx-min-width:200;
+    -fx-pref-height: 470;
+}
+
+#m_title_area{
+    -fx-alignment: center;
+}
+
+
+/*左侧导航菜单按钮样式*/
+.menu-btn {
+    -fx-max-width: 230px;
+    -fx-max-height: 35px;
+    -fx-background-color: #F7F7F7;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-radius: 10px;
+}
+
+/*左侧导航菜单按钮鼠标悬停效果*/
+.menu-btn:hover {
+    -fx-background-color: rgb(95, 184, 120);
+    -fx-text-fill: #fff;
+}
+.menu-btn:pressed {
+    -fx-background-color: rgb(75, 164, 100);
+    -fx-text-fill: #fff;
+}
+.menu-btn:focused {
+    -fx-background-color: rgb(75, 164, 100);
+    -fx-text-fill: #fff;
+}
+
+/*风琴标题面板字体颜色*/
+.titled-pane {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 0 0 0 0;
+
+}
+
+/*风琴标题面板背景色*/
+.titled-pane > .title {
+    -fx-background-color: #666666;
+    -fx-padding: 10 0 10 0;
+}
+titles-pane > *.content {
+    -fx-background-radius: 0;
+    -fx-border-insets: 0;
+    -fx-border-color:#666666 ;
+}
+
+.titled-pane > .title > .arrow-button >.arrow{
+    -fx-background-color: transparent;
+}
+/*/////////////////////////////////*/
+.accordion_a{
+    -fx-background-insets: 0;
+    -fx-background-color:#666666;
+    -fx-padding: 0 0 0 0;
+
+}
+.box_second_area{
+    -fx-spacing: 10;
+    -fx-padding: 0 0 0 0;
+}
+.box_figure_area{
+    -fx-background-color: #F7F7F7;
+    -fx-background-radius: 10.0;
+    -fx-padding: 5 5 5 5;
+
+}
+
+
+.box_pane_multi{
+    -fx-background-color: #FF8C00;
+    -fx-pref-height: 200;
+    -fx-pref-width: 200;
+    -fx-alignment: center center;
+}
+#box_pane_multi_box{
+    -fx-alignment: center center;
+}
+
+#vbox_figure_center{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0 0 0 0;
+    -fx-max-width: 600;
+    -fx-min-height: 400;
+}
+#vbox_figure_center_ext{
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 10 20 20 20;
+    -fx-max-width: 640;
+    -fx-min-height: 420;
+}
+#box_first_area_{
+
+}
+
+#hbox_figure_tools{
+    -fx-background-radius: 10.0;
+    -fx-background-color: #B22222;
+}
+
+.box_condition_area{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10.0;
+    -fx-spacing: 10;
+    -fx-padding: 5 5 5 5;
+    -fx-border-width: 2px;
+
+}
+#vbox_condition_this{
+    -fx-background-color: #E6E6E6;
+    -fx-min-height: 284;
+}
+#vbox_condition_all{
+    -fx-background-color: #E6E6E6;
+    -fx-min-height: 284;
+}
+.vbox_condition_title{
+    -fx-min-height: 30;
+    -fx-pref-width: 145;
+    -fx-background-color: #E2F2F2;
+    -fx-alignment: center;
+}
+
+.third_condition_title_label{
+    -fx-font-size: 20;
+}
+
+.vbox_condition_content{
+    -fx-min-height: 255;
+    -fx-pref-width: 145;
+    -fx-background-color: #B2F2F2;
+}
+
+
+.box_menu_area{
+    -fx-background-color: #F7F7F7;
+    -fx-padding: 5 5 5 5;
+    -fx-background-radius: 10px;
+    -fx-min-height: 160px;
+}
+.box_double_area{
+    -fx-background-color: #F7F7F7;
+    -fx-spacing: 0;
+    -fx-padding: 0 0 0 0;
+    -fx-border-width: 0px;
+}
+
+.box_content{
+    /*上右下左*/
+    -fx-padding: 15 0 18 12;
+    -fx-spacing: 10;
+    -fx-background-color:#999999;
+}
+.box_third_area{
+    /*上右下左*/
+    -fx-padding: 0 0 0 0;
+    -fx-spacing: 10;
+    -fx-background-color: transparent;
+}
+
+
+
+.box_info_area{}
+#box_info_info{
+    -fx-alignment: Left;
+}
+
+#box_select{
+    -fx-spacing: 5;
+}
+
+
+/* 后面是小窗口的样式/////////////////////////////////////  */
+.connect_set_label{
+    -fx-font-size: 16;
+    -fx-pref-height: 30;
+}
+.connect_set_vbox{
+    -fx-padding: 35 0 0 20;
+    -fx-spacing: 20;
+    -fx-pref-width: 380;
+    -fx-pref-height: 150;
+
+}
+.connect_set_s{
+    -fx-spacing: 14;
+}
+.connect_set_c{
+    -fx-spacing: 26;
+    -fx-padding: 0 0 3 5;
+
+}
+.connect_set_e{
+    -fx-padding: 5 0 0 110;
+}
+#text_area{
+
+}

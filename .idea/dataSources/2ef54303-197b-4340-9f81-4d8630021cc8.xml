@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ertu@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.15">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ertu">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>5.43581/1C7A927C-B112-462C-8811-B6F3F52BCDE5@LAPTOP-NDD36M0N\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="7" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-04-29.21:42:22.653</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="18" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="20" parent="17" name="Table_1">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2019-04-28.02:02:07.903</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-28.02:02:08.360</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="17" name="user">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2019-04-28.02:02:26.490</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-28.02:02:26.500</ModifiedTimestamp>
+    </table>
+    <column id="22" parent="20" name="user">
+      <Position>1</Position>
+      <DataType>nchar(12 char)|0s</DataType>
+    </column>
+    <column id="23" parent="20" name="pwd">
+      <Position>2</Position>
+      <DataType>nchar(20 char)|0s</DataType>
+    </column>
+    <column id="24" parent="20" name="starttime">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="25" parent="20" name="days">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="26" parent="20" name="endtime">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="27" parent="20" name="istest">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="28" parent="21" name="user">
+      <Position>1</Position>
+      <DataType>nchar(14 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="21" name="pwd">
+      <Position>2</Position>
+      <DataType>nchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="21" name="starttime">
+      <Position>3</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="21" name="days">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="21" name="endtime">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="21" name="istest">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
